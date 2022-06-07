@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CarHireLocationsPOD'
-  s.version          = '0.1.0'
+  s.version          = '1.0.1'
   s.summary          = 'This summary is to summarize the CarHireLocationsPOD podspec.'
 
 # This description is used to generate tags and improve search results.
