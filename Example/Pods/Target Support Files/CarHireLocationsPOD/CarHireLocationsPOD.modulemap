@@ -1,0 +1,6 @@
+framework module CarHireLocationsPOD {
+  umbrella header "CarHireLocationsPOD-umbrella.h"
+
+  export *
+  module * { export * }
+}

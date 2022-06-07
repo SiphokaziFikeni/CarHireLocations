@@ -1,0 +1,16 @@
+PODS:
+  - CarHireLocationsPOD (0.1.0)
+
+DEPENDENCIES:
+  - CarHireLocationsPOD (from `../`)
+
+EXTERNAL SOURCES:
+  CarHireLocationsPOD:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CarHireLocationsPOD: a14245d1277f0c636b33ab03de67bcf28e4b848a
+
+PODFILE CHECKSUM: 7b8d26e063dc37f5e14defa5bcce777e95cc7b26
+
+COCOAPODS: 1.11.3

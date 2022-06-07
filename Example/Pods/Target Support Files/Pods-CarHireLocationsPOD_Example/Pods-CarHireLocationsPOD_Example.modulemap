@@ -1,0 +1,6 @@
+framework module Pods_CarHireLocationsPOD_Example {
+  umbrella header "Pods-CarHireLocationsPOD_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
