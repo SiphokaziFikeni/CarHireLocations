@@ -29,9 +29,9 @@
 
 /* Begin PBXFileReference section */
 		0527A8C191D54A3F1BE03D4A /* Pods_CarHireLocationsPOD_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CarHireLocationsPOD_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1A29D236233D5435DFE5083E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		392F6132B681D87EF6071B65 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		3C53576D77FC8AB243082CFF /* CarHireLocationsPOD.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = CarHireLocationsPOD.podspec; path = ../CarHireLocationsPOD.podspec; sourceTree = "<group>"; };
+		1A29D236233D5435DFE5083E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		392F6132B681D87EF6071B65 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		3C53576D77FC8AB243082CFF /* CarHireLocationsPOD.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = CarHireLocationsPOD.podspec; path = ../CarHireLocationsPOD.podspec; sourceTree = "<group>"; };
 		40442ADF5F211522720748AA /* Pods-CarHireLocationsPOD_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarHireLocationsPOD_Example.debug.xcconfig"; path = "Target Support Files/Pods-CarHireLocationsPOD_Example/Pods-CarHireLocationsPOD_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		4189A9EC2E14EF2C5231A25D /* Pods-CarHireLocationsPOD_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarHireLocationsPOD_Tests.release.xcconfig"; path = "Target Support Files/Pods-CarHireLocationsPOD_Tests/Pods-CarHireLocationsPOD_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* CarHireLocationsPOD_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarHireLocationsPOD_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -147,7 +147,6 @@
 				77F97B41A5B6400C2BBAFA49 /* Pods-CarHireLocationsPOD_Tests.debug.xcconfig */,
 				4189A9EC2E14EF2C5231A25D /* Pods-CarHireLocationsPOD_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -213,6 +212,7 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = W6N2LHJ794;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
@@ -227,6 +227,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -478,6 +479,7 @@
 			baseConfigurationReference = 40442ADF5F211522720748AA /* Pods-CarHireLocationsPOD_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = W6N2LHJ794;
 				INFOPLIST_FILE = CarHireLocationsPOD/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -493,6 +495,7 @@
 			baseConfigurationReference = F82B4625C39A91E9D7450E14 /* Pods-CarHireLocationsPOD_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = W6N2LHJ794;
 				INFOPLIST_FILE = CarHireLocationsPOD/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
